@@ -1,9 +1,0 @@
-#include <boost/test/unit_test.hpp>
-#include "create_markov_chain.h"
-
-BOOST_AUTO_TEST_CASE(test_create_markov_chain)
-{
-  const auto g = create_markov_chain();
-  BOOST_CHECK(boost::num_vertices(g) == 2);
-  BOOST_CHECK(boost::num_edges(g) == 4);
-}

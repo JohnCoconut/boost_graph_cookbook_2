@@ -29,6 +29,10 @@ install:
   - sudo apt-get install -qq lyx
   - sudo apt-get install -qq texlive # For pdflatex
   - sudo apt-get install -qq texlive-* # For pdflatex
+  # Get my folder
+  - my_github=${PWD##*/}  
+  # boost_graph_cookbook_1
+  - cd ..; git clone https://github.com/richelbilderbeek/boost_graph_cookbook_1.git; cd $my_github
 
 script: 
   - type dot

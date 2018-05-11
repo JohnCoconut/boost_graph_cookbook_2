@@ -31,3 +31,5 @@
 *.out
 *.app
 *.lyx~
+build-
+*.pro.user

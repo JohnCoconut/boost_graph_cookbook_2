@@ -1,11 +1,5 @@
-HEADERS += \
-    $$PWD/load_directed_graph_from_dot.h \
-    $$PWD/load_undirected_graph_from_dot.h
+HEADERS +=
 
-SOURCES += \
-    $$PWD/load_directed_graph_from_dot.cpp \
-    $$PWD/load_undirected_graph_from_dot.cpp
+SOURCES +=
 
-OTHER_FILES += \
-    $$PWD/load_directed_graph_from_dot.impl \
-    $$PWD/load_undirected_graph_from_dot.impl
+OTHER_FILES +=

@@ -1,9 +1,0 @@
-#include <boost/algorithm/string/replace.hpp>
-
-std::string graphviz_decode(std::string s) noexcept
-{
-  boost::algorithm::replace_all(s,"$$$COMMA$$$",",");
-  boost::algorithm::replace_all(s,"$$$SPACE$$$"," ");
-  boost::algorithm::replace_all(s,"$$$QUOTE$$$","\"");
-  return s;
-}

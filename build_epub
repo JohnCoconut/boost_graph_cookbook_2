@@ -1,0 +1,6 @@
+#!/bin/bash
+cd boost_graph_cookbook_2
+lyx --export pdflatex boost_graph_cookbook_2.lyx
+pandoc boost_graph_cookbook_2.tex -o boost_graph_cookbook_2.epub
+epubcheck boost_graph_cookbook_2.epub
+cd ..

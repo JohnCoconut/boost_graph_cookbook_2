@@ -1,0 +1,12 @@
+#include <fstream>
+#include <boost/graph/graphviz.hpp>
+
+template <typename graph>
+void save_graph_to_dot(
+  const graph& g,
+  const std::string& filename
+) noexcept
+{
+  std::ofstream f(filename);
+  boost::write_graphviz(f,g);
+}

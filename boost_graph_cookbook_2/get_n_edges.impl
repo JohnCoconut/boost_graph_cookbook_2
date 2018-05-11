@@ -1,0 +1,14 @@
+#include <cassert>
+#include <boost/graph/adjacency_list.hpp>
+
+template <typename graph>
+int get_n_edges(const graph& g) noexcept
+{
+  const int n{
+    static_cast<int>(boost::num_edges(g))
+  };
+  assert(static_cast<unsigned long>(n)
+    == boost::num_edges(g)
+  );
+  return n;
+}

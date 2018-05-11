@@ -1,0 +1,2 @@
+include(boost_graph_cookbook_2_graphviz_only_no_properties.pri)
+include(boost_graph_cookbook_2_no_graphviz_no_properties.pri)

@@ -1,0 +1,2 @@
+include(boost_graph_cookbook_2_test_no_graphviz.pri)
+include(boost_graph_cookbook_2_test_graphviz_only.pri)

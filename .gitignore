@@ -33,3 +33,4 @@
 *.lyx~
 build-
 *.pro.user
+build-*

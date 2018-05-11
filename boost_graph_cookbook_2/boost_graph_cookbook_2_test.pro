@@ -6,7 +6,6 @@ include(../../boost_graph_cookbook_1/boost_graph_cookbook_1/boost_graph_cookbook
 include(../../boost_graph_cookbook_1/boost_graph_cookbook_1/boost_graph_cookbook_1_helper.pri)
 include(../../boost_graph_cookbook_1/boost_graph_cookbook_1/boost_graph_cookbook_1_misc.pri)
 include(../../boost_graph_cookbook_1/boost_graph_cookbook_1/boost_graph_cookbook_1_no_properties.pri)
-include(../../boost_graph_cookbook_1/boost_graph_cookbook_1/boost_graph_cookbook_1_tutorial.pri)
 
 include(boost_graph_cookbook_2.pri)
 include(boost_graph_cookbook_2_test.pri)
